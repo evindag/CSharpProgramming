@@ -13,19 +13,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParamsKeyword", "ParamsKeyw
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csproj", "{02C091B1-40EF-4373-A4C8-69D8CB29093C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForLoop", "ForLoop\ForLoop.csproj", "{4C579ACC-2D66-485B-B0D1-5B2B0D99DB01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForLoop", "ForLoop\ForLoop.csproj", "{4C579ACC-2D66-485B-B0D1-5B2B0D99DB01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhileLoop", "WhileLoop\WhileLoop.csproj", "{E885D05B-A372-40B6-8DDB-B720527F30FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhileLoop", "WhileLoop\WhileLoop.csproj", "{E885D05B-A372-40B6-8DDB-B720527F30FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoWhileLoop", "DoWhileLoop\DoWhileLoop.csproj", "{79A97909-D0AE-492C-9560-6E9380CCE932}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoWhileLoop", "DoWhileLoop\DoWhileLoop.csproj", "{79A97909-D0AE-492C-9560-6E9380CCE932}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForEachLoop", "ForEachLoop\ForEachLoop.csproj", "{567C1EA4-CD24-4DE4-BC54-001471444A00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForEachLoop", "ForEachLoop\ForEachLoop.csproj", "{567C1EA4-CD24-4DE4-BC54-001471444A00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project-PrimeNumber", "Project-PrimeNumber\Project-PrimeNumber.csproj", "{D4B72527-6F5D-4E74-9357-04FB71AEE081}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project-PrimeNumber", "Project-PrimeNumber\Project-PrimeNumber.csproj", "{D4B72527-6F5D-4E74-9357-04FB71AEE081}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project-String", "Project-String\Project-String.csproj", "{B12F7A34-06C0-4590-8489-33DB85A01F5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project-String", "Project-String\Project-String.csproj", "{B12F7A34-06C0-4590-8489-33DB85A01F5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringMethods", "StringMethods\StringMethods.csproj", "{FEC33B7D-38F9-4255-8764-2D16B1EEE7B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringMethods", "StringMethods\StringMethods.csproj", "{FEC33B7D-38F9-4255-8764-2D16B1EEE7B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{5C1A26BC-A1D5-45EB-8FAF-30E5007F85C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project-FormApp", "Project-FormApp\Project-FormApp.csproj", "{1DD93695-0ECE-4FE7-8E39-B67190A9E5BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +85,14 @@ Global
 		{FEC33B7D-38F9-4255-8764-2D16B1EEE7B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEC33B7D-38F9-4255-8764-2D16B1EEE7B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEC33B7D-38F9-4255-8764-2D16B1EEE7B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C1A26BC-A1D5-45EB-8FAF-30E5007F85C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C1A26BC-A1D5-45EB-8FAF-30E5007F85C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C1A26BC-A1D5-45EB-8FAF-30E5007F85C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C1A26BC-A1D5-45EB-8FAF-30E5007F85C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DD93695-0ECE-4FE7-8E39-B67190A9E5BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DD93695-0ECE-4FE7-8E39-B67190A9E5BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DD93695-0ECE-4FE7-8E39-B67190A9E5BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DD93695-0ECE-4FE7-8E39-B67190A9E5BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
