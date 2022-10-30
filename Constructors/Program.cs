@@ -11,7 +11,12 @@ namespace Constructors
 
             Customer customer = new Customer { Id = 1, Name = "Ahmet" };
             Customer customer2 = new Customer ( 2,"Mehmet" );
-            Console.ReadLine(); 
+            StaticClasses.Number = 10;
+            Utilities.Validate();
+            Manager.DoSomething();
+            Manager manager = new Manager();
+            manager.DoSomething2();
+;            Console.ReadLine(); 
         }
     }
     class ProductManager
