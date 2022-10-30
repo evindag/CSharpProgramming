@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LessonManager
+namespace AccessModifiers
 {
     internal class Program
     {
@@ -23,11 +23,11 @@ namespace LessonManager
         }
     }
 
-    class Student:Teacher
+    class Student : Teacher
     {
         public void Save2()
         {
-         
+
 
         }
     }

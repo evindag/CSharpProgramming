@@ -1,4 +1,4 @@
-﻿using LessonManager;
+﻿using AccessModifiers;
 using System;
 
 namespace AccessModifierTest
