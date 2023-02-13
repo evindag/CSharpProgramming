@@ -53,17 +53,29 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constructor_Injection", "Co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseClasses", "BaseClasses\BaseClasses.csproj", "{3D88CE9F-ABA2-4604-B646-ED4A5F9ECF50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenceAndValueType", "ReferenceAndValueType\ReferenceAndValueType.csproj", "{CB013FF4-EAC8-445B-9601-34CB37E4BF41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReferenceAndValueType", "ReferenceAndValueType\ReferenceAndValueType.csproj", "{CB013FF4-EAC8-445B-9601-34CB37E4BF41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{80766357-7649-42CC-A1B6-A164340C3AED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections", "Collections\Collections.csproj", "{80766357-7649-42CC-A1B6-A164340C3AED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeSafeCollection", "TypeSafeCollection\TypeSafeCollection.csproj", "{035C80FD-851F-47FE-AC1D-58385CE05302}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypeSafeCollection", "TypeSafeCollection\TypeSafeCollection.csproj", "{035C80FD-851F-47FE-AC1D-58385CE05302}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionMethods", "CollectionMethods\CollectionMethods.csproj", "{6C6AA704-B473-4972-9940-83FA9078C5B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionMethods", "CollectionMethods\CollectionMethods.csproj", "{6C6AA704-B473-4972-9940-83FA9078C5B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary", "Dictionary\Dictionary.csproj", "{AF94BA30-FE3E-497E-82F8-612BAFFC8107}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dictionary", "Dictionary\Dictionary.csproj", "{AF94BA30-FE3E-497E-82F8-612BAFFC8107}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "Exceptions\Exceptions.csproj", "{D7347BF4-B003-40A7-9F43-3893891407B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exceptions", "Exceptions\Exceptions.csproj", "{D7347BF4-B003-40A7-9F43-3893891407B0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generics", "Generics\Generics.csproj", "{16C22D69-0E31-42D6-9B2C-9784DBB6CE97}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Attributes", "Attributes\Attributes.csproj", "{58EDC2E1-5ABF-4517-8B89-4199A4B22087}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reflection", "Reflection\Reflection.csproj", "{794DC26A-7017-4B85-8CC3-31F9E366944E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegates", "Delegates\Delegates.csproj", "{1871A4B5-D8C3-450C-857F-01F4F4573F34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Func", "Func\Func.csproj", "{EA18893E-D500-4DFF-AD40-541C392BB9BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events", "Events\Events.csproj", "{91769174-F11C-4B2C-A34E-9D61E189256C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -195,6 +207,30 @@ Global
 		{D7347BF4-B003-40A7-9F43-3893891407B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7347BF4-B003-40A7-9F43-3893891407B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7347BF4-B003-40A7-9F43-3893891407B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16C22D69-0E31-42D6-9B2C-9784DBB6CE97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16C22D69-0E31-42D6-9B2C-9784DBB6CE97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16C22D69-0E31-42D6-9B2C-9784DBB6CE97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16C22D69-0E31-42D6-9B2C-9784DBB6CE97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58EDC2E1-5ABF-4517-8B89-4199A4B22087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58EDC2E1-5ABF-4517-8B89-4199A4B22087}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58EDC2E1-5ABF-4517-8B89-4199A4B22087}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58EDC2E1-5ABF-4517-8B89-4199A4B22087}.Release|Any CPU.Build.0 = Release|Any CPU
+		{794DC26A-7017-4B85-8CC3-31F9E366944E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{794DC26A-7017-4B85-8CC3-31F9E366944E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{794DC26A-7017-4B85-8CC3-31F9E366944E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{794DC26A-7017-4B85-8CC3-31F9E366944E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1871A4B5-D8C3-450C-857F-01F4F4573F34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1871A4B5-D8C3-450C-857F-01F4F4573F34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1871A4B5-D8C3-450C-857F-01F4F4573F34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1871A4B5-D8C3-450C-857F-01F4F4573F34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA18893E-D500-4DFF-AD40-541C392BB9BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA18893E-D500-4DFF-AD40-541C392BB9BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA18893E-D500-4DFF-AD40-541C392BB9BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA18893E-D500-4DFF-AD40-541C392BB9BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91769174-F11C-4B2C-A34E-9D61E189256C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91769174-F11C-4B2C-A34E-9D61E189256C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91769174-F11C-4B2C-A34E-9D61E189256C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91769174-F11C-4B2C-A34E-9D61E189256C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
